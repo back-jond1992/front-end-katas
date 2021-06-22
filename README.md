@@ -9,7 +9,6 @@ Students will likely have completed:
 - [FreeCodeCamp HTML/CSS material](https://learn.freecodecamp.org/)
 
 Inspired by the wonderful [CSS workshop](https://github.com/northcoders/css-workshop)
- 
 
 ## CSS topics
 
@@ -27,7 +26,7 @@ A list of potential topics to cover:
 - [ ] Flex
 - [ ] grid
 - [ ] Responsive - Media queries
-- [ ] Pseudo selectors - Hover / Disbaled / Focus
+- [ ] Pseudo selectors - Hover / Disabled / Focus
 - [ ] position : relative / absolute / sticky
 - [ ] backgrounds
 - [ ] Animations + keyframes
