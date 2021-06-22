@@ -34,3 +34,13 @@ create a lot of divs - select and style using :
 
 - text decoration
 - size
+
+
+1. give all `article` tags border, padding 
+2. give each `article` an id => target specific article and font size of your choice
+3. give all `h2` and `p` tags class selector
+  1. font-size?
+4. child selector
+  1. one italic
+  2. one bold
+
