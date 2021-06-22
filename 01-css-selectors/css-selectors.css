@@ -15,6 +15,7 @@ body {
 /* Headers Styling*/
 h1 {
   text-decoration: underline;
+  text-align: center;
 }
 
 h2 {
@@ -22,14 +23,51 @@ h2 {
   text-decoration: underline;
 }
 
-/* Button Styling */
+/* Generic Button Styling */
 .btn {
   font-size: 16px;
   padding: 10px;
   margin: 5pxgit;
 }
+/* INFO ARTICLE & BUTTON STYlING */
 
+#Info {
+  color: #ffffff;
+  background-color: #5688a5;
+}
+
+#Info .btn {
+  background-color: #254661;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#Info p {
+  line-height: 1.3;
+}
+
+/* ERRORS ARTICLE & BUTTON STYlING */
+
+#Errors {
+  color: #ffffff;
+  background-color: #e41518;
+}
+
+#Errors .btn {
+  background-color: #941421;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#Info p {
+  line-height: 1.3;
+}
 /* 
+ 
   article {
       border: 3px solid red;
       padding: 5px;
