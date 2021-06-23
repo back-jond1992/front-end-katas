@@ -3,18 +3,16 @@ h1 {
 }
 
 code {
-  background-color: rgb(255, 239, 219);
-  /* border: 1px solid rgb(216, 216, 216); */
-  display: block;
+  padding: 3px;
 }
 
-span {
-  color: purple;
-  text-indent: 50px;
-  padding-left: 30px;
+section {
+  background-color: #ffd79b;
+  padding: 0.5rem 1rem;
+  margin: 1px;
 }
 
-/* don't change these */
+/* don't change .box */
 .box {
   height: 200px;
   width: 200px;
@@ -24,15 +22,13 @@ span {
   border: 10px solid black;
 }
 
-.contents{
+/* Task 2 */
+.border {
+  box-sizing: border-box;
+  width: 240px;
+  height: 240px;
 }
 
-/* change this */
-.border{
-  box-sizing: border-box;
-  /* width: 240px; */
-  /* height: 240px */
-}
 p {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;

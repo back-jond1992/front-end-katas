@@ -13,16 +13,28 @@ The shape size, and exact positioning of an element will depend on various attri
 
 ## Tasks
 
-- inline vs. block
+### Inline Vs. Block
 
-  - add an inline text tag (`<span>`) to style some text, inline
-  - change some tags inline/block props
-  - give three items - force them to be opposite display types
+1.  Style the `<code>` elements so each appears as a `block` and not `inline` like they are currently.
+2.  Add `<span>` tags to the `html` to allow you change the colours to match the wireframe below (or your own VSCode theme!)
+3.  Style the `<section>` tags so that they appear side-by-side!
 
-- box-sizing
+> before...
 
-  - two boxes - make them the same size
-  - w/ padding, border, margin, height/width etc
+<img src="./wireframe-1.png" alt="inline vs block before" width="700"/>
 
-- padding/margin/border task?
-  - content w/ outline
+> after...
+
+<img src="./wireframe-2.png" alt="inline vs block after" width="700"/>
+
+### Box sizing
+
+change the `height` and `width` properties of the `border` box to make it the same size as
+
+> before...
+
+<img src="./wireframe-3.png" alt="box sizing before" width="300"/>
+
+> after...
+
+<img src="./wireframe-4.png" alt="box sizing after" width="300"/>
