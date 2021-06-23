@@ -81,3 +81,15 @@ For this task you will need to add some hsl colours to the second row of flags t
 - Niger
 - Luxembourg
 - Sierra Leone
+
+## NOTES ABOUT TASKS
+
+- there are guides in the CSS file to show you where to insert your background colours for each specific flag.
+
+- If the colours are horizontal, 'first background-color' will refer to the left most column. If the colours are vertical, then 'first background-color' will refer to the row at the top of the flag.
+
+- All other elements that may need colouring are indicated
+
+- when you have completed all of the flags, feel free to remove any outlines, but leave ALL borders in place.
+
+- If you are feeling confident, have a go at designing your own flag, we would love to see your wonderful colourful creations!
