@@ -66,37 +66,47 @@ CSS Syntax:
 
 ---
 
-create a lot of divs - select and style using :
-
-- type selectors
-
-- class & id selectors
+Here are some other CSS Selectors that you can research but there are many more that we can use when styling with CSS..
 
 - attribute selectors
 
 - child-selectors
 
-```html
-<div id="blog_post">
-  <h2>This is my blog post</h2>
-  <p>Lorem Lorem Lorem Lorem</p>
-  <p>Lorem Lorem Lorem Lorem</p>
-  <p>Lorem Lorem Lorem Lorem</p>
-  <p>Lorem Lorem Lorem Lorem</p>
-  <p>Lorem Lorem Lorem Lorem</p>
-</div>
-```
+## TASKS:
 
-```css
-.blog_post p {
-}
-```
+We have created a HTML skeleton of for a page containing three sections of information and we want you to use some CSS Selectors to style it!
 
-> make first <p> larger
+### Articles:
 
-> text ascends in size (5px or so)
+- use the Type Selector to style your articles uniformly
+- combine border, padding and margin to position your paragraphs in each article
+- add a background colour to each article(you might want to use a different type of selector in order to use different background colours for each article....)
 
-> each line different style
+---
 
-- text decoration
-- size
+### Headers:
+
+- use the Class Selector to style your headers
+- should be capitalised(don't cheat and change the html file 🧐)
+- should be underlined
+
+---
+
+### Buttons:
+
+- should have a border
+- make use of padding to design your buttons
+- make use of margin to position your buttons in relation to one another
+- should be a similar shade to the article colour that they are contained within(hint...could an element have more than one class selector.....)
+
+---
+
+### Extra Tasks:
+
+- Grace Hopper was an incredible woman so let's make her name **stand out!** Think about how we could use an inline element to make her name bold without changing the structure of our 'Info' article
+
+- The 'Errors' article needs to stand out more! Let's make the paragraphs for this article ONLY - _italic!_
+
+- The 'Happy Facts' article also needs to stand out! Let's make the paragraphs for this article ONLY - CAPITALISED
+
+- Check out the 'example-articles.png' file in the task directory for an example of how you could make this look!
