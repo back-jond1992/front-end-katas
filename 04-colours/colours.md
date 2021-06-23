@@ -1,11 +1,10 @@
-# colours
+# Colours
 
-- boring css-colours / hex / rgb / **hsl**
+It's time to look at colours! CSS offers forward so many different ways in which we can add colour to our styling! It really is an endless adventure!
 
-- colour in flags using different colour codes
+This kata will require you to colour in some flags from around the world using the different colouring options available to us in CSS. You will be required to look up
 
-- rotate hue
-
-- pride flag?
-
-- 
+- web colours(generic colours available to us in CSS)
+- Hexidecimal colour codes
+- RGB colour codes
+- HSL colour codes
