@@ -1,3 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 30px;
+  background-color: #3f3f3f;
+  color: #ffffff;
+}
+
 h1 {
-          text-decoration: underline;
-      }
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.p_container {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
