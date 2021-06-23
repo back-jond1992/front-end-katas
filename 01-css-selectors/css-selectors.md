@@ -109,4 +109,6 @@ We have created a HTML skeleton of for a page containing three sections of infor
 
 - The 'Happy Facts' article also needs to stand out! Let's make the paragraphs for this article ONLY - CAPITALISED
 
-- Check out the 'example-articles.png' file in the task directory for an example of how you could make this look!
+- Check out the example below of how you could possibly design these articles...
+
+![example articles](./example-articles.png)
