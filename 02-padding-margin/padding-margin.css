@@ -14,35 +14,69 @@ section p {
   font-size: 30px;
 }
 
-div {
+.fragile,
+.left,
+.right,
+.spa {
   border: 1px solid rgb(255, 188, 143);
 }
+/* Task 1 */
 
-p {
-  margin: 0;
+/* Task 2 */
+
+/* Task 3 */
+.frogger {
+  width: 800px;
+  border: 10px ridge black;
+  font-size: 3rem;
+  text-align: center;
 }
 
-.right {
-  margin-right: 50%;
+.row1 {
+  background-color: green;
 }
 
-.left {
-  margin-left: 50%;
+.row2,
+.row3,
+.row4,
+.row5 {
+  background-color: blue;
+  text-align: start;
 }
 
+.row9,
+.row10,
+.row11 {
+  background-color: #000000;
+}
+.row12,
+.row6 {
+  background-color: purple;
+  height: 3.5rem;
+}
+
+.row1,
+.row12 {
+  text-align: center;
+}
+
+.turtle {
+  background-color: greenyellow;
+  height: 3rem;
+  width: 100px;
+  border-radius: 25%;
+}
+
+/* Task 4 */
 .spa {
-  width: 300px;
+  width: 95vw;
 }
 
-.spa p {
-  width: 10px;
-  margin: auto;
-}
-
-article {
+.avocado-article {
   width: 300px;
   border: 1px solid black;
 }
 
-.article-text {
+.button-wrapper {
+  width: max-content;
 }
