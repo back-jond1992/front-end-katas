@@ -93,3 +93,23 @@ For this task you will need to add some hsl colours to the second row of flags t
 - when you have completed all of the flags, feel free to remove any outlines, but leave ALL borders in place.
 
 - If you are feeling confident, have a go at designing your own flag, we would love to see your wonderful colourful creations!
+
+---
+
+### Extra Task - HSL
+
+`hsl` - or "hue, saturation and lightness" - is CSS function that returns a colour.
+
+It's arguments `hsl(<hue>, <saturation>, <lightness>)` can be adjusted individually to fine-tune a colours components without effecting the others.
+
+For example you may create a rainbow with the same saturation and lightness by adjusting the `hue`
+
+<img src="./hsl-1.png" alt="inline vs block before" width="300"/>
+
+Or adjust the lightness only
+
+<img src="./hsl-2.png" alt="inline vs block before" width="300"/>
+
+### Task 5:
+
+- Flip the `hue` of the `hsl` flags around the colour wheel 180 degrees!
