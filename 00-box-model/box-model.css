@@ -1,3 +1,33 @@
 h1 {
   text-decoration: underline;
 }
+
+code {
+  padding: 3px;
+}
+
+section {
+  background-color: #ffd79b;
+  padding: 0.5rem 1rem;
+  margin: 1px;
+}
+
+/* don't change .box */
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  padding: 10px;
+  background: yellow;
+  border: 10px solid black;
+}
+
+/* Task 2 */
+.border {
+  box-sizing: border-box;
+}
+
+p {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}

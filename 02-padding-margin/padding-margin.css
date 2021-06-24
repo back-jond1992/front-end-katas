@@ -1,3 +1,48 @@
 h1 {
-          text-decoration: underline;
-      }
+  text-decoration: underline;
+}
+
+section {
+  border: 1px solid #000000;
+  width: 200px;
+  background-color: rgb(250, 228, 215);
+  text-align: center;
+}
+
+section p {
+  background-color: rgb(255, 167, 108);
+  font-size: 30px;
+}
+
+div {
+  border: 1px solid rgb(255, 188, 143);
+}
+
+p {
+  margin: 0;
+}
+
+.right {
+  margin-right: 50%;
+}
+
+.left {
+  margin-left: 50%;
+}
+
+.spa {
+  width: 300px;
+}
+
+.spa p {
+  width: 10px;
+  margin: auto;
+}
+
+article {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.article-text {
+}
