@@ -28,6 +28,7 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   padding: 10px;
+  /* TASK 3 - Insert border here */
 }
 nav li.nav_link {
   list-style: none;
@@ -60,9 +61,18 @@ h1 {
   align-items: center;
 }
 
+section.starters {
+  /* TASK 1 - Insert border here */
+}
+
+section.desserts {
+  /* TASK 1 - Insert border here */
+}
+
 /* MENU STYLING */
 
 h2 {
+  /* TASK 2 - Insert border here */
 }
 
 .menu_item {
@@ -80,6 +90,7 @@ hr {
 
 button {
   border: none;
+  /* TASK 5 - Insert border and styling in  here */
 }
 
 /* FOOTER STYLING */
@@ -90,4 +101,5 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  /* TASK 4 - Insert border here */
 }
