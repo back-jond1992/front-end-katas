@@ -231,3 +231,87 @@ section {
   position: absolute;
   top: 320px;
 }
+
+/* GAME 3 */
+
+.game3 {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid red;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.left_wall {
+  height: 100%;
+  width: 210px;
+  border-right: 1px solid green;
+  background-color: #3f3f3f;
+}
+
+.path {
+  width: 80px;
+  height: 100%;
+  position: relative;
+}
+
+.right_wall {
+  height: 100%;
+  width: 210px;
+  border-left: 1px solid green;
+  background-color: #3f3f3f;
+}
+
+/* Obstacles */
+.obstacle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid green;
+}
+
+.o-one {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.o-two {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+}
+.o-three {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+}
+.o-four {
+  position: absolute;
+  top: 280px;
+  left: 45px;
+}
+
+.o-five {
+  position: absolute;
+  top: 350px;
+  left: 23px;
+}
+
+.o-six {
+  position: absolute;
+  top: 420px;
+  left: 40px;
+}
+
+/* Player One */
+
+.player_one {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: orange;
+  border-radius: 50%;
+}
