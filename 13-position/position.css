@@ -118,8 +118,9 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 0px;
+  top: 0px;
+  /* GAME 1  - Move Piece using changing the px value of left and top */
 }
 
 .piece_two {
@@ -127,8 +128,9 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 0px;
+  bottom: 0px;
+  /* GAME 1  - Move Piece using changing the px value of right and bottom */
 }
 
 .piece_three {
@@ -136,8 +138,9 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0px;
+  top: 0px;
+  /* GAME 1  - Move Piece using changing the px value of right and top */
 }
 
 .piece_four {
@@ -145,8 +148,9 @@ section {
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0px;
+  /* GAME 1  - Move Piece using changing the px value of left and bottom */
 }
 
 /* GAME 2 */
@@ -199,34 +203,42 @@ section {
 .c-one {
   position: absolute;
   top: 90px;
+  /* GAME 2 - Change Position */
 }
 .c-two {
   position: absolute;
   top: 160px;
+  /* GAME 2 - Change Position */
 }
 .c-three {
   position: absolute;
   top: 230px;
+  /* GAME 2 - Change Position */
 }
 .c-four {
   position: absolute;
   top: 300px;
+  /* GAME 2 - Change Position */
 }
 .c-five {
   position: absolute;
   top: 90px;
+  /* GAME 2 - Change Position */
 }
 .c-six {
   position: absolute;
   top: 160px;
+  /* GAME 2 - Change Position */
 }
 .c-seven {
   position: absolute;
   top: 230px;
+  /* GAME 2 - Change Position */
 }
 .c-eight {
   position: absolute;
   top: 300px;
+  /* GAME 2 - Change Position */
 }
 
 /* BEAMS */
@@ -333,4 +345,5 @@ section {
   border-radius: 50%;
   top: 10px;
   left: 10px;
+  /* GAME 3 - Guide player one to safety by changing the 'px' of the top and left absolute values here */
 }

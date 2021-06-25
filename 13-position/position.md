@@ -72,7 +72,7 @@ We use **position:fixed** when we want to position an element relative to the br
 
 ### Game 2:
 
-- It's time to rearrange some circles! Using the **top** position property only, align both circles and the middle beam correctly!
+- It's time to rearrange some circles! Using the **top** position property in the circles style elements only, align both circles and the middle beam correctly!
 
 > NB It may be tempting to just copy the other values, but try and increment the **top** position property to get a feel for how far the circles move, depending on the value you enter!
 
