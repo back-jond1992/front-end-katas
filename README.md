@@ -1,33 +1,9 @@
 # FE CSS Katas
 
-A repo of CSS challenges for students to practice their CSS skills with. A series a [CSS Battle](https://cssbattle.dev/) style challenges for them to implement various CSS techniques and build up their styling knowledge. Topics should include instructions and wire-frames where appropriate.
+A series of challenges cover a variety of CSS and HTML topics
 
-Students will likely have completed:
+Make your way through the challenges as they are numbered.
 
-- [Codeacademy learn HTML](https://www.codecademy.com/learn/learn-html)
-- [Codecademy learn CSS](https://www.codecademy.com/learn/learn-css)
-- [FreeCodeCamp HTML/CSS material](https://learn.freecodecamp.org/)
+Ready the markdown file for each topic carefully - the challenges have specific instructions on how to complete them!
 
-Inspired by the wonderful [CSS workshop](https://github.com/northcoders/css-workshop)
- 
-
-## CSS topics
-
-A list of potential topics to cover:
-
-- [ ] Box Model
-- [ ] CSS selectors
-- [ ] Padding + Margin
-- [ ] Relative Units
-- [ ] Colours
-- [ ] Borders
-- [ ] box shadows
-- [ ] a11y - Focus - tabIndex - contrast
-- [ ] Images - object -fit?
-- [ ] Flex
-- [ ] grid
-- [ ] Responsive - Media queries
-- [ ] Pseudo selectors - Hover / Disbaled / Focus
-- [ ] position : relative / absolute / sticky
-- [ ] backgrounds
-- [ ] Animations + keyframes
+Once you have completed a task take a screenshot of your result and add it to your repo!
