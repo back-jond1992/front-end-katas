@@ -18,7 +18,7 @@ We use **position:relative** when we want to position something relative to it's
 
 ### Absolute:
 
-We use **position:absolute** when we want to position something relative to it's parent element. If no parent element has an attribute of **position:relative**, then by default the element will absolutely position itself to '0, 0'(**top left**) of the **BODY** element!
+We use **position:absolute** when we want to position something relative to it's parent element. If no parent element has an attribute of **position:relative**, then by default the element will absolutely position itself to '0, 0'(**top left**) of the **BODY** element in the HTML!
 
 ```html
 <div class="parent">
