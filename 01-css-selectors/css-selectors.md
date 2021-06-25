@@ -6,8 +6,6 @@
 
 ### Examples of CSS Selectors:
 
-&nbsp;
-
 - **Type Selector** - Selects all elements that have the given element name
 
 ```html
@@ -111,4 +109,4 @@ We have created a HTML skeleton of for a page containing three sections of infor
 
 - Check out the example below of how you could possibly design these articles...
 
-![example articles](./example-articles.png)
+<img src="./example-articles.png" alt="wireframe" width="700"/>

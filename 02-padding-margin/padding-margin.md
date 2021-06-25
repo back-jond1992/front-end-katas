@@ -1,7 +1,5 @@
 # padding-margin
 
-
-
 ## Tasks
 
 ### 1. Default margin/padding
@@ -36,30 +34,17 @@ You can use absolute or relative units here
 
 ---
 
-### 3. Frogger
-
-Create a straight path from the frog `🐸 `to the bed `🛏️ `!
-
-_Avoid_ the cars and _cross over_ the turtles and logs!
-
-Rules:
-
-- Only use `padding` on the cars
-- Only use `margin` on the logs and 'turtles'
-
----
-
-### 4. Find your centre
+### 3. Find your centre
 
 Breathe in... and breathe out... 🧘
 
-Help the spa-goer find their centre using `margin`.
+Help the spa-goer (🧘) find their centre using `margin`.
 
 They must remain centred even as the window is resized!
 
 ---
 
-### 5. Style the article
+### 4. Style the article
 
 We have an article which has all the content it needs but everything has it's default margins and padding and it looks very cramped!
 
@@ -76,20 +61,3 @@ Using `padding` and `margin` _only_
 > after...
 
 <img src="./wireframe-6.png" alt="inline vs block before" width="700"/>
-
-<!--
-- resize just using one/both
-
-- create boxes with backgrounds/borders - these should be visible (so use margin, for example)
-
-- top/right/bottom/left only
-
-  - TRBL
-  - add some padding to the sides of the text
-
-- `margin: auto`
-
-- parent div with two children - add margin
-
-- remove default padding & margin from \<p> and \<ul> etc
-  - investigate what is causing the offset -->
