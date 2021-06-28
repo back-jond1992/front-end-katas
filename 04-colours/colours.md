@@ -98,9 +98,9 @@ For this task you will need to add some hsl colours to the second row of flags t
 
 ### Extra Task - HSL
 
-`hsl` - or "hue, saturation and lightness" - is CSS function that returns a colour.
+`hsl` - or "hue, saturation and lightness" - is a CSS function that returns a colour.
 
-It's arguments `hsl(<hue>, <saturation>, <lightness>)` can be adjusted individually to fine-tune a colours components without effecting the others.
+It's arguments `hsl(<hue>, <saturation>, <lightness>)` can be adjusted individually to fine-tune a colour's components without affecting the others.
 
 For example you may create a rainbow with the same saturation and lightness by adjusting the `hue`
 

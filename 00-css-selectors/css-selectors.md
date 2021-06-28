@@ -78,14 +78,14 @@ We have created a HTML skeleton of for a page containing three sections of infor
 
 - use the Type Selector to style your articles uniformly
 - combine border, padding and margin to position your paragraphs in each article
-- add a background colour to each article(you might want to use a different type of selector in order to use different background colours for each article....)
+- add a background colour to each article (you might want to use a different type of selector in order to use different background colours for each article....)
 
 ---
 
 ### Headers:
 
 - use the Class Selector to style your headers
-- should be capitalised(don't cheat and change the html file 🧐)
+- should be capitalised (don't cheat and change the html file 🧐)
 - should be underlined
 
 ---
@@ -95,7 +95,7 @@ We have created a HTML skeleton of for a page containing three sections of infor
 - should have a border
 - make use of padding to design your buttons
 - make use of margin to position your buttons in relation to one another
-- should be a similar shade to the article colour that they are contained within(hint...could an element have more than one class selector.....)
+- should be a similar shade to the article colour that they are contained within (hint...could an element have more than one class selector.....)
 
 ---
 
