@@ -46,7 +46,7 @@ They must remain centred even as the window is resized!
 
 ### 4. Style the article
 
-We have an article which has all the content it needs but everything has it's default margins and padding and it looks very cramped!
+We have an article which has all the content it needs but everything has its default margins and padding and it looks very cramped!
 
 Using `padding` and `margin` _only_
 

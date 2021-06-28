@@ -6,7 +6,7 @@ In this kata, we are going to look at three types of positioning(but there are m
 
 ### Relative:
 
-We use **position:relative** when we want to position something relative to it's normal position. So **'right: 10px'** will add add 10p to the elements RIGHT position.
+We use **position:relative** when we want to position something relative to it's normal position. So **'right: 10px'** will add add 10px to the element's RIGHT position.
 
 ```css
 .box {
@@ -44,7 +44,7 @@ We use **position:absolute** when we want to position something relative to it's
 
 <img src="./css-example.png" alt="box sizing after" width="400"/>
 
-In the example above, the left image will be the default positioning of the **child** element when seeting it's position to **absolute**. The square on the right is the outcome of setting it's top and left positioning attributes to 30px.
+In the example above, the left image will be the default positioning of the **child** element when setting it's position to **absolute**. The square on the right is the outcome of setting its top and left positioning attributes to 30px.
 
 ---
 
@@ -67,7 +67,7 @@ We use **position:fixed** when we want to position an element relative to the br
 
 ### Game 1:
 
-- as you can see we have enetered Northcoders very own retro games arcade!
+- as you can see we have enetered Northcoders' very own retro games arcade!
 - your task is simple, re-arrange the squares using the **right, left, top and bottom** position properties only so that they are positioned in the correct corner!
 
 ### Game 2:

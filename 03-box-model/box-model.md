@@ -63,7 +63,7 @@ box-sizing: border-box;
 ### 1. Inline Vs. Block
 
 1.  Style the `<code>` elements so each appears as a `block` and not `inline` like they are by default.
-2.  Add `<span>` tags to the `html` to allow you change the colours to match the wireframe below (or your own VSCode theme!)
+2.  Add `<span>` tags to the `html` to allow you to change the colours to match the wireframe below (or your own VSCode theme!)
 3.  Change the `display` property of the `<section>` tags so that they appear side-by-side!
 
 > before...

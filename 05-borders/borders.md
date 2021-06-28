@@ -1,12 +1,12 @@
 # Borders
 
-Wow..that was a lot of flags! However, it is time to move on to another fabulous CSS topic - **Borders**!
+Wow... that was a lot of flags! However, it is time to move on to another fabulous CSS topic - **Borders**!
 
 Borders allow us to navigate the different elements and content on a page without us even realising they are doing so! They are reeallly powerful design tools!
 
 ## CSS Syntax:
 
-There are many ways in which we can style using in borders and we are going to take a look at a few of them here before getting stuck into the kata.
+There are many ways in which we can style using borders and we are going to take a look at a few of them here before getting stuck into the kata.
 
 ```css
 .flag {
@@ -38,7 +38,7 @@ In this syntax, we are adding specificity to each part of our border. We have se
 
 ---
 
-> NB - you could also use three individual selectors in stead of the shorthand in the above example. See in the example below..
+> NB - you could also use three individual selectors instead of the shorthand in the above example. See in the example below...
 
 ```css
 .flag {
@@ -74,7 +74,7 @@ CSS will also allow you the option of interchanging which choice of colour desig
 
 ### Border Radius:
 
-We can also use the **border-radius** to style an elements outer border edge!
+We can also use the **border-radius** to style an element's outer border edge!
 
 Using border we can add a specific amount of radius to each corner using a single value, or if we choose, target each corner individually.
 
@@ -90,7 +90,7 @@ Using border we can add a specific amount of radius to each corner using a singl
 }
 ```
 
-The above is a common was in which we can target all corners, an effective way to make a circle for example! Below is a way in which can be more specific with our values for each corner.
+The above is a common was in which we can target all corners - an effective way to make a circle for example! Below is a way in which can be more specific with our values for each corner.
 
 ---
 
@@ -110,7 +110,7 @@ The above is a common was in which we can target all corners, an effective way t
 
 ## TASKS:
 
-In this kata we are excited to let you know that Northcoders has opened a restaurant! And we have created a menu that we need help with! If you open you **border.html** file with the **Live Server extension**, you will a menu with some fabulous dishes. It is quite difficult however to make out which section is which and this is where we need you!
+In this kata we are excited to let you know that Northcoders has opened a restaurant! And we have created a menu that we need help with! If you open the **border.html** file with the **Live Server extension**, you will a menu with some fabulous dishes. It is quite difficult however to make out which section is which and this is where we need you!
 
 Before starting these tests, have a little google to see how we can also target specfic sides of a container(hint..**border-left**..for example!)
 
@@ -134,6 +134,6 @@ Before starting these tests, have a little google to see how we can also target 
 
 - Now let's use some **border-radius** to add some styling to the menu buttons! Think about how you could use **padding**, **margin** and some **background coloring** that you have learned in previous katas, to make the buttons really stand out.
 
-Once you have completed all these tasks, feel free to add to this menu page and style it any way you like! Below is example of how you could style this page and how useful borders can be when needing to separate elements of a page :)!
+Once you have completed all these tasks, feel free to add to this menu page and style it any way you like! Below is an example of how you could style this page and how useful borders can be when needing to separate elements of a page :)!
 
 <img src="./menu_mock.png" alt="box sizing after" width="1000"/>

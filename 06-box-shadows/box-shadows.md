@@ -39,7 +39,7 @@
 - Add a `box-shadow` with no offset
 - Set the `box-shadow` to be `inset` inside the `<div>`
 - Add a blur
-- Either colour the shadow `black` or copy the boxes `hsl` and adjust the `lightness` to be darker (let Doug know which one you prefer 💅)
+- Either colour the shadow `black` or copy the box's `hsl` and adjust the `lightness` to be darker (let Doug know which one you prefer 💅)
 
 > 🎨 Aim to make the box appear "sunk" into the page!
 
