@@ -120,7 +120,7 @@ section {
   position: absolute;
   left: 0px;
   top: 0px;
-  /* GAME 1  - Move Piece using changing the px value of left and top */
+  /* GAME 1 - move this square by changing the px value of left and top */
 }
 
 .piece_two {
@@ -130,7 +130,7 @@ section {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  /* GAME 1  - Move Piece using changing the px value of right and bottom */
+  /* GAME 1 - move this square by changing the px value of right and bottom */
 }
 
 .piece_three {
@@ -140,7 +140,7 @@ section {
   position: absolute;
   right: 0px;
   top: 0px;
-  /* GAME 1  - Move Piece using changing the px value of right and top */
+  /* GAME 1 - move this square by changing the px value of right and top */
 }
 
 .piece_four {
@@ -150,7 +150,7 @@ section {
   position: absolute;
   left: 0px;
   bottom: 0px;
-  /* GAME 1  - Move Piece using changing the px value of left and bottom */
+  /* GAME 1 - move this square by changing the px value of left and bottom */
 }
 
 /* GAME 2 */
@@ -203,42 +203,42 @@ section {
 .c-one {
   position: absolute;
   top: 90px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-two {
   position: absolute;
   top: 160px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-three {
   position: absolute;
   top: 230px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-four {
   position: absolute;
   top: 300px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-five {
   position: absolute;
   top: 90px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-six {
   position: absolute;
   top: 160px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-seven {
   position: absolute;
   top: 230px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 .c-eight {
   position: absolute;
   top: 300px;
-  /* GAME 2 - Change Position */
+  /* GAME 2 - move this circle by changing the px value of top */
 }
 
 /* BEAMS */
@@ -345,5 +345,5 @@ section {
   border-radius: 50%;
   top: 10px;
   left: 10px;
-  /* GAME 3 - Guide player one to safety by changing the 'px' of the top and left absolute values here */
+  /* GAME 3 - Guide Player One to safety by changing the px values of top and left here */
 }
