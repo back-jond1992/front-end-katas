@@ -1,12 +1,18 @@
 # Position
 
-Positioning is one of the most poweful tools available to us in CSS and when you come to designing website and mobile apps, it is something that will become part of your every day arsenal of creative tools.
+Positioning is one of the most powerful tools available to us in CSS and when you come to designing websites and mobile apps. It is something that will become part of your everyday arsenal of creative tools.
 
-In this kata, we are going to look at three types of positioning(but there are more for you to look up in your own time :P!)
+In this kata, we are going to look at three types of positioning (but there are more for you to look up in your own time :P!)
 
-### Relative:
+---
 
-We use **position:relative** when we want to position something relative to it's normal position. So **'right: 10px'** will add add 10px to the element's RIGHT position.
+## Relative positioning
+
+We use `position:relative` when we want to position something relative to its normal position.
+
+Relative positioning works alongside directional properties: `top`, `bottom`, `left` and `right`. Adding length values to these properties (e.g. `10px`, `2rem` etc.) allows us to place the element exactly where we need it to be.
+
+For example, adding `right: 10px;` will move this element ten pixels away from the right edge of its normal position. This might seem confusing at first - `right: 10px;` moves our element to the *left* instead of the *right* - but it might help to think of this property as declaring **the distance away from the named edge**.
 
 ```css
 .box {
@@ -16,9 +22,11 @@ We use **position:relative** when we want to position something relative to it's
 
 ---
 
-### Absolute:
+## Absolute positioning
 
-We use **position:absolute** when we want to position something relative to it's parent element. If no parent element has an attribute of **position:relative**, then by default the element will absolutely position itself to '0, 0'(**top left**) of the **BODY** element in the HTML!
+We use `position:absolute` when we want to position an element relative to its parent element.
+
+If none of its parent elements has an attribute of `position: relative`, then by default the element will absolutely position itself to `0, 0` (**top left**) of the `body` element in the HTML, before applying any values from directional properties.
 
 ```html
 <div class="parent">
@@ -44,11 +52,15 @@ We use **position:absolute** when we want to position something relative to it's
 
 <img src="./css-example.png" alt="box sizing after" width="400"/>
 
-In the example above, the left image will be the default positioning of the **child** element when setting it's position to **absolute**. The square on the right is the outcome of setting its top and left positioning attributes to 30px.
+In the example above, the left image shows the default positioning of the **child** element when setting its position to **absolute**. The right image shows how the square changes position when the `top` and `left` properties are each set to 30px.
 
 ---
 
-### Fixed:
+## Fixed positioning
+
+We use `position:fixed` when we want to position an element relative to the browser window, *regardless of the scroll position of the page*.
+
+One of the most common uses of this styling is to fix the header of your website to the top of the page, keeping it constantly visible, whilst the rest of the page has normal scrolling functionality. It gives the appearance of the page content moving behind the header as you scroll.
 
 ```css
 .box {
@@ -56,28 +68,34 @@ In the example above, the left image will be the default positioning of the **ch
 }
 ```
 
-We use **position:fixed** when we want to position an element relative to the browser window. One of the most common uses of this styling is to fix the header of your website to the top of the page and still allow your page to have scriolling functionality.
-
-- Once you have completed all your tasks, there is some code that you can uncomment to see **position:fixed** in action!
-- lines **27 - 29** & **44 - 47** in the position.css! Make sure you complete all of the following tasks/games first!
+Once you have completed all your tasks, there is some code that you can uncomment to see `position:fixed` in action! Make sure you complete all of the following tasks first!
 
 ---
 
-## TASKS:
+## TASKS
 
-### Game 1:
+As you can see, we have entered Northcoders' very own retro games arcade!
 
-- as you can see we have enetered Northcoders' very own retro games arcade!
-- your task is simple, re-arrange the squares using the **right, left, top and bottom** position properties only so that they are positioned in the correct corner!
+### Game 1
 
-### Game 2:
+- Your task is to rearrange the squares using the **right, left, top and bottom** position properties only so that each square is positioned in the correct corner!
 
-- It's time to rearrange some circles! Using the **top** position property in the circles style elements only, align both circles and the middle beam correctly!
+### Game 2
 
-> NB It may be tempting to just copy the other values, but try and increment the **top** position property to get a feel for how far the circles move, depending on the value you enter!
+- It's time to rearrange some circles! Using the **top** position property, align each circle to its matching beam!
 
-### Game 3:
+> NB: It may be tempting to just copy the other values, but try and increment the **top** position property to get a feel for how far the circles move, depending on the value you enter!
 
-- Finally! You have to help player one escape! Using the **top** and **left** position properties, guide player one through the obstacle course to safety at the end!
+### Game 3
 
-Now you have done all the tasks! Scroll the page and THEN uncomment the aforemention code and try scrolling again!
+- Finally, you have to help Player One escape! Using the **top** and **left** position properties, guide player one through the obstacle course to safety at the end!
+
+### Finally...
+
+Now you have done all the tasks:
+
+- scroll the page
+- uncomment lines **27 - 28** & **44 - 47** in `position.css`
+- scroll the page again
+
+What's changed? How does the page behave now?
