@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="a11y.css" />
+    <script src="a11y.js" defer></script>
+    <title>A11y</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <div id="navigation">
+      <div>Dougs Amazingly Inaccessible Joke Database</div>
+      <select name="" id="">
+        <option value="top_rated">🏆</option>
+        <option value="popular">🔥</option>
+        <option value="new">🌱</option>
+      </select>
+      <select name="" id="">
+        <option value="today">today</option>
+        <option value="weekly">week</option>
+        <option value="monthly">month</option>
+        <option value="all_time">all</option>
+      </select>
+    </div>
+
+    <div id="page-columns">
+      <!-- jokes list -->
+      <div id="jokes__list">
+        <div class="jokes__container">
+          <p class="jokes__joke">What do you call a man with no shins? Toni.</p>
+          <div class="vote__wrapper">
+            <button class="vote__button vote__up">vote</button>
+            <button class="vote__button vote__down">vote</button>
+          </div>
+        </div>
+        <div class="jokes__container">
+          <p class="jokes__joke">
+            I asked my german friend if they knew what the square root of 81
+            was. They said no.
+          </p>
+          <div class="vote__wrapper">
+            <div class="vote__button vote__up">vote</div>
+            <div class="vote__button vote__down">vote</div>
+          </div>
+        </div>
+        <div class="jokes__container">
+          <p class="jokes__joke">When I eat birthday cake i get heartburn</p>
+          <div class="vote__wrapper">
+            <div class="vote__button vote__up">vote</div>
+            <div class="vote__button vote__down">vote</div>
+          </div>
+        </div>
+      </div>
+      <!-- joke submission form -->
+      <form action="" id="jokeForm">
+        <p>name</p>
+        <input autofocus class="form__field" name="username" />
+        <p>submission</p>
+        <textarea class="form__field" name="joke"></textarea>
+        <div class="form__button" onclick="submitJoke()">click here</div>
+      </form>
+    </div>
+
+    <!-- a pop up i just know my users will love -->
+    <div id="pop-up">
+      <button id="pop-up__close">😢</button>
+      <div class="pop-up__message">
+        <p>SIGN UP FOR MY NEWSLETTER</p>
+        <p>1 JOKE EVERY HOUR</p>
+        <p>WRITTEN IN ALL CAPS</p>
+      </div>
+      <button id="pop-up__register">😄 sign up 😄</button>
+    </div>
+  </body>
+</html>
