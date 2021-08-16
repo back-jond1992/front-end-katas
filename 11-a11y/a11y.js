@@ -5,6 +5,7 @@ const jokeInput = jokeForm.elements.joke;
 const popUp = document.querySelector('#pop-up');
 
 jokeForm.onsubmit = (event) => {
+  event.preventDefault();
   const formNotComplete = !usernameInput.value || !jokeInput.value;
 
   if (formNotComplete) {
@@ -22,8 +23,8 @@ setTimeout(() => {
   const signUpButton = document.getElementById('pop-up__register');
   signUpButton.focus();
   document.addEventListener('keydown', (e) => {
+    e.preventDefault();
     if (e.key === 'Tab') {
-      e.preventDefault();
       signUpButton.focus();
     }
   });
