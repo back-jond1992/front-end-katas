@@ -1,3 +1,41 @@
 h1 {
   text-decoration: underline;
+  color: red;
+}
+
+article {
+  border: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+#info {
+  background-color: yellow;
+}
+
+#errors {
+  background-color: pink;
+}
+
+#errors > p {
+  font-style: italic;
+}
+
+#happy-facts {
+  background-color: blueviolet;
+}
+
+#happy-facts > p {
+  text-transform: capitalize;
+}
+
+.headers {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+button {
+  border: solid blue;
+  padding: 10px;
+  margin: 15px;
 }

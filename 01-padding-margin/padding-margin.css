@@ -12,6 +12,7 @@ section {
 section p {
   background-color: rgb(255, 167, 108);
   font-size: 30px;
+  margin: 0px;
 }
 
 .fragile,
