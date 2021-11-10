@@ -46,15 +46,15 @@ h1 {
 }
 
 .ita_one {
-  /* insert first background-color*/
+  background-color: green;
 }
 
 .ita_two {
-  /* insert second background-color*/
+  background-color: white;
 }
 
 .ita_three {
-  /* insert third background-color*/
+  background-color: red;
 }
 
 /* BELGIUM */
@@ -69,15 +69,15 @@ h1 {
   width: 33.3%;
 }
 .bel_one {
-  /* insert first background-color*/
+  background-color: black;
 }
 
 .bel_two {
-  /* insert second background-color*/
+  background-color: yellow;
 }
 
 .bel_three {
-  /* insert third background-color*/
+  background-color: red;
 }
 
 /* MONACO */
@@ -93,11 +93,11 @@ h1 {
 }
 
 .mon_one {
-  /* insert first background-color*/
+  background-color: red;
 }
 
 .mon_two {
-  /* insert second background-color*/
+  background-color: white;
 }
 
 /* HEX */

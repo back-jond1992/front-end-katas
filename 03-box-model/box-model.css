@@ -40,3 +40,7 @@ section {
 .content {
   box-sizing: content-box;
 }
+
+.divOne {
+  box-sizing: content-box;
+}
