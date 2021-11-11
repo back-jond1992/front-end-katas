@@ -115,14 +115,14 @@ h1 {
 }
 
 .arm_one {
-  /* insert first background-color*/
+  background-color: #ff0000;
 }
 .arm_two {
-  /* insert second background-color*/
+  background-color: #0000ff;
 }
 
 .arm_three {
-  /* insert third background-color*/
+  background-color: #ffff00;
 }
 
 /* BAHAMAS */
@@ -139,14 +139,14 @@ h1 {
 }
 
 .bah_one {
-  /* insert first background-color*/
+  background-color: #008080;
 }
 .bah_two {
-  /* insert second background-color*/
+  background-color: #ffff00;
 }
 
 .bah_three {
-  /* insert third background-color*/
+  background-color: #008080;
 }
 
 .bah_triangle {
@@ -172,15 +172,15 @@ h1 {
 }
 
 .cha_one {
-  /* insert first background-color*/
+  background-color: #0000ff;
 }
 
 .cha_two {
-  /* insert first background-color*/
+  background-color: #ffff00;
 }
 
 .cha_three {
-  /* insert first background-color*/
+  background-color: #ff0000;
 }
 
 /* RGB */
